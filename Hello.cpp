@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-  cout << "hello world" << endl;
-  cout << "this is awesome" << endl; //added this line
+void printsomething() {
+  cout << "woah! a method!!!" << endl;
+}
+
+int main () {
+  cout << "hello everybody" << endl;
+  printsomething();
 }
